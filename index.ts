@@ -1,2 +1,2 @@
-let cource = 'Next Level Web Development course'
+let cource: string = 'Next Level Web Development course'
 console.log(cource);
