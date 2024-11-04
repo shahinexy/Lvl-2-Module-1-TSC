@@ -8,3 +8,19 @@ function add(num1 : number, num2: number): number{
 // add(2, 'shahin') error
 // add(2, true) error
 add(5,10)
+
+
+// Arrow function
+const addArrow = (num1 : number, num2: number): number => num1 - num2
+
+
+
+// object --> function --> Method
+
+const newUser ={
+    aName : 'shain',
+    balance : 20,
+    addBlance (balance: number): string{
+        return `My New Blance is ${this.balance + balance}`;
+    }
+}
