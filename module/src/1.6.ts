@@ -1,3 +1,4 @@
+{
 // Learning Function
 
 // Normal Function
@@ -23,4 +24,13 @@ const newUser ={
     addBlance (balance: number): string{
         return `My New Blance is ${this.balance + balance}`;
     }
+}
+
+
+//map 
+const arr : number[] = [1,2,5,7];
+
+const newArr : number[] = arr.map((element: number): number => element*element);
+
+
 }
